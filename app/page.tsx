@@ -20,7 +20,7 @@ const mapOptions = {
   zoomControl: false,
 }
 
-const EventsMap: FunctionComponent<Record<string, unknown>> = () => {
+const EventsMap: FunctionComponent<{}> = () => {
   const [mapContainer, setMapContainer] = useState<HTMLDivElement | null>(null)
   const mapRef = useCallback((node: React.SetStateAction<HTMLDivElement | null>) => {
     node && setMapContainer(node)
