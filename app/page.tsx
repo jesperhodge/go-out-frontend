@@ -3,15 +3,15 @@
 import React, { FunctionComponent, useState, useCallback, useEffect, Dispatch, SetStateAction } from 'react'
 import { GoogleMapsProvider } from '@ubilabs/google-maps-react-hooks'
 
-import { Gather } from '@customTypes/gather'
-import MapCanvas from '@web/components/MapCanvas'
-import PlaceFinder from '@web/components/PlaceFinder'
-import { GatherGallery } from '@web/components/GatherGallery'
-import { Toolbar } from '@web/components/Toolbar'
-import { Markers } from '@web/components/Markers'
-import { DashboardContext } from '@web/context/DashboardContext'
-import { useClient } from '@web/apiClient'
-import { Header } from '@web/components/Header'
+import { Gather } from '~/types/gather'
+import MapCanvas from '~/components/MapCanvas'
+import PlaceFinder from '~/components/PlaceFinder'
+import { GatherGallery } from '~/components/GatherGallery'
+import { Toolbar } from '~/components/Toolbar'
+import { Markers } from '~/components/Markers'
+import { DashboardContext } from '~/context/DashboardContext'
+import { useClient } from '~/apiClient'
+import { Header } from '~/components/Header'
 
 const mapOptions = {
   center: { lat: 53.5582447, lng: 9.647645 },

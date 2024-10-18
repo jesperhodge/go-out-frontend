@@ -1,6 +1,6 @@
 import { FC, useState, useEffect, useContext, useCallback } from 'react'
 import { useGoogleMap } from '@ubilabs/google-maps-react-hooks'
-import { DashboardContext } from '@web/context/DashboardContext'
+import { DashboardContext } from '~/context/DashboardContext'
 
 /**
  * Component to render all map markers

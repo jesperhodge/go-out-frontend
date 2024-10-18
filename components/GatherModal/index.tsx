@@ -1,5 +1,5 @@
-import { Gather } from '@customTypes/gather'
-import { DashboardContext } from '@web/context/DashboardContext'
+import { Gather } from '~/types/gather'
+import { DashboardContext } from '~/context/DashboardContext'
 import React, { FC, useContext, useState } from 'react'
 
 interface Props {

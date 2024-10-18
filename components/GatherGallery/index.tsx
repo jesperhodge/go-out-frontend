@@ -1,4 +1,4 @@
-import { Gather } from '@customTypes/gather'
+import { Gather } from '~/types/gather'
 import Image from 'next/image'
 import { FC } from 'react'
 

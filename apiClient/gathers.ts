@@ -1,7 +1,7 @@
 import { Dispatch, SetStateAction } from 'react'
-import { BACKEND_URL } from '@web/constants/base'
-import { Gather, Participant } from '@customTypes/gather'
-import { user } from '@web/app/constants'
+import { BACKEND_URL } from '~/constants/base'
+import { Gather, Participant } from '~/types/gather'
+import { user } from '~/app/constants'
 import { UserResource } from '@clerk/types'
 
 const encodeParams = (params: Record<string, any>): string => {

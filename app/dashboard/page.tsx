@@ -1,4 +1,4 @@
-import { GatherGallery } from '@web/components/GatherGallery'
+import { GatherGallery } from '~/components/GatherGallery'
 import { FC } from 'react'
 
 interface Props {}

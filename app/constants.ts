@@ -1,4 +1,4 @@
-import { Participant } from '@customTypes/gather'
+import { Participant } from '~/types/gather'
 
 export const GOOGLE_MAPS_API_KEY: string = process.env.GOOGLE_MAPS_API_KEY as string
 

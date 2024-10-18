@@ -1,4 +1,4 @@
-import { Gather } from '@customTypes/gather'
+import { Gather } from '~/types/gather'
 import { Dispatch, SetStateAction, createContext } from 'react'
 
 export const DashboardContext = createContext<{

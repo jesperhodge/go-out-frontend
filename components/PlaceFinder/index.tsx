@@ -1,13 +1,13 @@
 import React, { useEffect, ChangeEvent, useState, useRef, FC } from 'react'
 import { useAutocompleteService, useGoogleMap, usePlacesService } from '@ubilabs/google-maps-react-hooks'
 
-import { Gather, Participant, PlaceFinderSuggestion } from '@customTypes/gather'
+import { Gather, Participant, PlaceFinderSuggestion } from '~/types/gather'
 
 import './index.css'
 import { GatherModal } from '../GatherModal'
 import { Search } from '../Search'
-import { DashboardContext } from '@web/context/DashboardContext'
-import { useClient } from '@web/apiClient'
+import { DashboardContext } from '~/context/DashboardContext'
+import { useClient } from '~/apiClient'
 import { useUser } from '@clerk/nextjs'
 
 const maxNumberOfSuggestions = 5
